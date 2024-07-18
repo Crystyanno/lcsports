@@ -76,13 +76,18 @@ body {
     z-index: 1;
 }
 
+.light #switch button {
+    right: 0;
+    left: initial;
+}
+
 #switch span {
     display: block;
     width: 64px;
     height: 24px;
     background: var(--surface-color);
     border: 1px solid var(--stroke-color);
-    -webkit-backdrop-filter: blur(4px);
+    /*-webkit-backdrop-filter: blur(4px);*/
     border-radius: 9999px;
 }
 
@@ -132,7 +137,7 @@ ul li a:hover {
 }
 
 #social-links a:hover {
-    background: var(--heighlight-color)
+    background: var(--heighlight-color);
 }
 
 footer {
